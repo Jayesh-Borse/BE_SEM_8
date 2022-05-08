@@ -13,7 +13,7 @@
      - Define the remote functions 
      - The methods needed to create remote objects and make them available to remote clients are provided   by the class *UnicastRemoteObject*.
    - Creating Stub and Skeleton objects from the implementation class using rmic (RMI compiler)
-     - Use command **rmic nameOfTheClassImplementingInterface**
+     - Use command `rmic nameOfTheClassImplementingInterface`
    - Create and execute the server application program
      - create registry <br>
         `LocateRegistry.createRegistry(portNumber)`
